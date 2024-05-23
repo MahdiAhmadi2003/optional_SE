@@ -81,3 +81,14 @@ results = pd.DataFrame(reduced_data,columns=['pca1','pca2'])
 sns.scatterplot(x="pca1", y="pca2", hue=clusters.labels_, data=results)
 plt.title('K-means Clustering with 2 dimensions')
 plt.show()
+
+
+
+
+
+
+
+
+
+
+          
